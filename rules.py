@@ -40,7 +40,7 @@ def check_roles(team):
     counts = team.count_by_role()
     errors = []
     for role, (low, high) in ROLE_LIMITS.items():
-        count = counts[role]
+        count = counts.get(role, 0)
         if count < low or count > high:
             errors.append(
                 f"Team has {count} players with role {role}, "
