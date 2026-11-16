@@ -1,7 +1,7 @@
 from pathlib import Path
-from dugout.loader import load_players, load_team, load_teams
-from dugout.models import League
-from dugout.rules import MAX_CREDITS
+from loader import load_players, load_team,
+from models import League
+from rules import MAX_CREDITS
 
 BASE = Path(__file__).resolve().parent
 
