@@ -1,5 +1,8 @@
 from pathlib import Path
-from loader import load_players, load_team,
+from loader import (
+    load_players,
+    load_team,
+)
 from models import League
 from rules import MAX_CREDITS
 
