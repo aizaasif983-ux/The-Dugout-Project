@@ -1,4 +1,4 @@
-from dugout.rules import (
+from rules import (
     check_players_count,
     check_budget,
     check_franchise_limit,
