@@ -1,6 +1,6 @@
 import csv
 
-from dugout.models import Player, FantasyTeam
+from models import Player, FantasyTeam
 
 def load_players(path):
 
